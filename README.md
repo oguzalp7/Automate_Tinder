@@ -1,9 +1,11 @@
 # Automate_Tinder
 
-# Dependencies
+# Dependencies for Python
   Selenium
   Opencv
   Chrome Webdriver
+# Other Dependency
+  Apache to load up your html file to web browser
   
 # References
   # Aaron Jack
