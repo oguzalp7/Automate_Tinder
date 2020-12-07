@@ -7,6 +7,13 @@
 # Other Dependency
   Apache to load up your html file to web browser
   
+### Important to know, this is not a user friendly application. It programmed prior to fun, and practice on Web Scraping and Web Automation.
+
+# Usage
+  - Enter your Facebook e-mail and password into "info.py"
+  - Put Rate API folder into your /www folder. (Ubuntu: /var/www, Windows: "Apache"/www)
+  - Then run tinder_bot.py
+ 
 # References
   # Aaron Jack
     Referenced Videos:
