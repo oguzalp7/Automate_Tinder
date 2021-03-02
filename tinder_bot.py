@@ -250,35 +250,3 @@ def boost():
 main()
 # boost()
 
-
-"""while True:
-    screen = grab_screen(region=(0, 40, 800, 640))
-    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-    gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(screen, 1.1, 4)
-    for (x, y, w, h) in faces:
-        cv2.rectangle(screen, (x, y), (x + w, y + h), (255, 0, 0), 2)
-
-    cv2.imshow('window', screen)
-    if cv2.waitKey(25) & 0xFF == ord('q'):
-        cv2.destroyAllWindows()
-        break
-    try:
-        if(len(faces)>0):
-            bot.like()
-            time.sleep(1)
-        else:
-            bot.dislike()
-            time.sleep(1)
-    except Exception:
-        try:
-            bot.close_popup()
-        except Exception:
-            bot.close_match()
-
-    finally:
-        try:
-            bot.send_how_you_doin()
-        except Exception:
-            pass
-"""
