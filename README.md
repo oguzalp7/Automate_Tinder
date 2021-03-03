@@ -5,6 +5,7 @@
   Opencv
   Chrome Webdriver
 # Other Dependency
+  Model download link: https://file.io/gLCJ0xGU99kx (I did not allowed to upload more than 25 MB.) Download and put it in the repository.
   Apache to load up your html file to web browser
   
 ### Important to know, this is not a user friendly application. It programmed prior to fun, and practice on Web Scraping and Web Automation.
